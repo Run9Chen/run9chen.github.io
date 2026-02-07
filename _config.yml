@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Runjiu Chen"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "Runjiu is a ScM student in JHSP, interested in statistical modeling and computational approaches for genetic epidemiology, single-cell genomics, and multi-omics of diseases."
+repository               : "Run9Chen.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Runjiu Chen"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  avatar           : "/Users/runjiuchen/Desktop/JHU R/ava.jpg"
+  bio              : "Johns Hopkins University"
   location         : "Baltimore MD"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "run9chen"
   google_plus      :
   keybase          :
   instagram        :
