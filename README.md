@@ -1,6 +1,6 @@
 
 <h1 align="center">
-AcadHomepage
+Runjiu Chen Homepage
 </h1>
 
 <div align="center">
