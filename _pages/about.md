@@ -23,7 +23,25 @@ I have worked on spatiotemporal modeling of brain transcriptomic heterogeneity i
 
 Previously, I received a B.S. in Statistics from Hunan University and completed a statistics program at UC Berkeley. I’m broadly interested in principled methods that translate high-dimensional omics and neuro/clinical signals into actionable insights—especially when interpretability and robustness matter.
 
-## 🔬Research Experience
+<span class='anchor' id='publications'></span>
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics 2024</div><img src='images/sample.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[STW-MD: a novel spatio-temporal weighting and multi-step decision tree method for considering spatial heterogeneity in brain gene expression data](https://academic.oup.com/bib/article/25/2/bbae051/7611940)
+
+Shanjun Mao , Xiao Huang , Runjiu Chen , Chenyang Zhang , Yizhu Diao , Zongjin Li , Qingzhe Wang , Shan Tang , Shuixia Guo
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Spatiotemporal ML for Brain Transcriptomics 
+</div>
+</div>
+
+- [Cell Lineage Tracing: methods, applications, and challenges](https://github.com), Shanjun Mao, Chenyang Zhang, Runjiu Chen, Shan Tang, Xiaodan Fan, Jie Hu **Quantitative Biology 2025**
+
+<span class='anchor' id='research-experience'></span>
+# 🔬 Research Experience
 
 **Deep Tensor Factorization for Differential Epigenomic Pattern Detection** (Jan 2026 – Now)  
 *Supervised by Weiqiang Zhou, Bloomberg School of Public Health, JHU, Baltimore, MD, USA*  
@@ -43,33 +61,21 @@ Investigating shared genetic architecture and potential causal directions betwee
 *Supervised by Lexin Li, School of Public Health, UC Berkeley, Berkeley, CA, USA*  
 Applied advanced deep learning techniques for EEG-to-text decoding and sentiment classification. Key methods include pre-trained large language models (e.g., BART) for open-vocabulary decoding and zero-shot sentiment classification, enabling emotion and text generation directly from EEG signals.
 
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[STW-MD: a novel spatio-temporal weighting and multi-step decision tree method for considering spatial heterogeneity in brain gene expression data](https://academic.oup.com/bib/article/25/2/bbae051/7611940)
-
-Shanjun Mao , Xiao Huang , Runjiu Chen , Chenyang Zhang , Yizhu Diao , Zongjin Li , Qingzhe Wang , Shan Tang , Shuixia Guo
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
+<span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 - *2024.10* Undergraduate Overseas (or International) Special Scholarship, (Only 15 Person in HNU Per Year) 
 - *2021.09* MI Social Endowment Scholarship, (Only 50 Person in HNU Per Year)
 
+<span class='anchor' id='education'></span>
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Johns Hopkins Univeristy, Bloomberg School of Public Health, Epidemiology
 - *2021.09 - 2025.06*, Hunan University, School of Finance and Statistics, Statistics
 - *2024.01 - 2024.08*, University of California, Berkeley, School of Finance and Statistics, Statistics
 
+<span class='anchor' id='skills'></span>
 # 💬 Skills
 - *Computing*, Pytorch, Python, R , C++, Java, PowerBI, Stata, MS Office, Matlab
 
+<span class='anchor' id='internships'></span>
 # 💻 Internships
 - *2026.02 - 2026.05*, Sandalwood advisors, China.
