@@ -23,9 +23,25 @@ I have worked on spatiotemporal modeling of brain transcriptomic heterogeneity i
 
 Previously, I received a B.S. in Statistics from Hunan University and completed a statistics program at UC Berkeley. I’m broadly interested in principled methods that translate high-dimensional omics and neuro/clinical signals into actionable insights—especially when interpretability and robustness matter.
 
-# 🔥 News
-- *2026.02*: &nbsp;🎉🎉 Happy Chinese New Year! I made dinner for my friends.
-- *2026.01*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## 🔬Research Experience
+
+**Deep Tensor Factorization for Differential Epigenomic Pattern Detection** (Jan 2026 – Now)  
+*Supervised by Weiqiang Zhou, Bloomberg School of Public Health, JHU, Baltimore, MD, USA*  
+Reproduced and extended HiPlex analysis pipelines for combinatorial chromatin profiling data. Implemented differential epigenomic pattern detection methods, including deep tensor factorization and dPCA, to identify region-level epigenomic changes between control and treatment conditions.
+
+**Shared Genetic Architecture and Causal Inference in T2D and CAD/MI** (Sep 2025 – Now)  
+*Supervised by Debashree Ray, Bloomberg School of Public Health, JHU, Baltimore, MD, USA*  
+Investigating shared genetic architecture and potential causal directions between type 2 diabetes and CAD/MI using publicly available GWAS summary statistics. Performed analyses including LDSC, Mendelian randomization, and follow-up colocalization to evaluate genetic correlation, shared liability, and putative causal effects.
+
+**Machine Learning for Omics: Single-Cell, Multi-Omics, and Clinical Prediction** (May 2022 – May 2025)  
+*Supervised by Shanjun Mao, School of Finance and Statistics, HNU, Hunan, China*  
+- **Spatiotemporal ML for Brain Transcriptomics (STW-MD, *Briefings in Bioinformatics*)** – Developed a two-stage machine learning framework for modeling spatiotemporal heterogeneity in brain gene expression across development and Alzheimer’s disease (AD). Implemented spatiotemporal weighting to capture dependencies across developmental stages and brain regions, and integrated multi-step decision-tree modeling to improve gene-class identification and characterize associations with developmental trajectories and AD progression. Analyzed 18,431 genes across 19 brain regions; implemented a weighted Limma model to identify stage-specific biomarkers. The proposed approach enhanced sensitivity to region-specific signals and improved interpretability in heterogeneous brain transcriptomic profiles.  
+- **Single-cell Lineage Inference (RNA velocity, *Quantitative Biology*)** – Applied RNA velocity to infer directional dynamics of single-cell transcriptomes and reconstruct cellular lineage trajectories and fate decisions. Conducted high-dimensional preprocessing, parameter tuning, and multi-omics integration to refine the biological resolution of cell state transitions. *Impact:* Improved lineage resolution and biological interpretability, supporting more reliable identification of cell fate transitions.  
+- **Depression Risk Prediction in T2DM (SEM + ML)** – Built a depression risk prediction pipeline for T2DM patients using SEM-derived latent constructs and machine learning classifiers (e.g., logistic regression, random forest). Improved risk stratification performance and supported earlier identification of high-risk patients with T2DM-related depression via LASSO feature selection and multi-class evaluation.
+
+**Advancements in Brain-Computer Interface Technologies: Bridging Human Cognition and Artificial Intelligence** (Jan 2024 – Jul 2024)  
+*Supervised by Lexin Li, School of Public Health, UC Berkeley, Berkeley, CA, USA*  
+Applied advanced deep learning techniques for EEG-to-text decoding and sentiment classification. Key methods include pre-trained large language models (e.g., BART) for open-vocabulary decoding and zero-shot sentiment classification, enabling emotion and text generation directly from EEG signals.
 
 # 📝 Publications 
 
