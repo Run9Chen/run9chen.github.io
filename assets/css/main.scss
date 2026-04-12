@@ -1,16 +1,13 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600&display=swap');
+
 /*
  *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -40,71 +37,372 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* =========================
+   Custom color palette
+   ========================= */
+
+$bg-main: #1c2b4b;
+$bg-nav: #0b1528;
+$text-main: #f2efe8;
+$text-body: #d6dce5;
+$text-muted: #b5becb;
+$accent: #c79b6b;
+$accent-hover: #ddb58d;
+$border: #31415f;
+$card-bg: #223252;
+
+/* =========================
+   Global
+   ========================= */
+
+html,
+body {
+  background: $bg-main !important;
+  color: $text-body !important;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif !important;
+  font-weight: 300;
+}
+
+body,
+.page,
+.page__inner-wrap,
+.page__content,
+.initial-content,
+.layout--single,
+.archive,
+.archive__item,
+.sidebar,
+.author__content,
+.author__urls-wrapper,
+.page__footer {
+  background: $bg-main !important;
+  color: $text-body !important;
+}
+
+/* =========================
+   Typography
+   ========================= */
+
+body,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content ul,
+.page__content ol,
+.author__bio,
+.author__urls,
+.archive__item-excerpt {
+  color: $text-body !important;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif !important;
+  font-weight: 300 !important;
+  line-height: 1.85 !important;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.author__name,
+.archive__item-title,
+.site-title,
+.masthead__menu-item,
+.greedy-nav a {
+  color: $text-main !important;
+  font-family: "Montserrat", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em;
+}
+
+.author__name {
+  font-size: 2rem !important;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.author__bio {
+  color: $text-body !important;
+  font-size: 1.05rem;
+  line-height: 1.9 !important;
+}
+
+.page__content p {
+  margin-bottom: 1rem;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  margin-top: 2.2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* =========================
+   Links
+   ========================= */
+
+a,
+.page__content a,
+.author__urls a,
+.greedy-nav a,
+.archive__item-title a {
+  color: $accent !important;
+  text-decoration: none !important;
+}
+
+a:hover,
+.page__content a:hover,
+.author__urls a:hover,
+.greedy-nav a:hover,
+.archive__item-title a:hover {
+  color: $accent-hover !important;
+  text-decoration: none !important;
+}
+
+/* =========================
+   Navigation
+   ========================= */
+
+.masthead {
+  background: $bg-nav !important;
+  border-bottom: 1px solid $border !important;
+}
+
+.greedy-nav {
+  background: $bg-nav !important;
+}
+
+.greedy-nav .visible-links {
+  background: $bg-nav !important;
+}
+
+.greedy-nav .hidden-links {
+  background: $bg-nav !important;
+  border: 1px solid $border !important;
+}
+
+.greedy-nav .hidden-links a {
+  background: $bg-nav !important;
+}
+
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead__menu-item a {
+  color: $text-main !important;
+  font-family: "Montserrat", "Lato", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .hidden-links a:hover,
+.masthead__menu-item a:hover {
+  color: $accent !important;
+}
+
+/* hamburger and search icon */
+.greedy-nav button,
+.search__toggle {
+  color: $text-main !important;
+}
+
+.greedy-nav button:hover,
+.search__toggle:hover {
+  color: $accent !important;
+}
+
+/* =========================
+   Sidebar / profile
+   ========================= */
+
+.sidebar {
+  background: $bg-main !important;
+}
+
+.author__avatar img {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28) !important;
+}
+
+.author__urls li,
+.author__urls a,
+.author__urls svg,
+.author__urls i {
+  color: $accent !important;
+  fill: $accent !important;
+}
+
+.author__urls a:hover,
+.author__urls li:hover,
+.author__urls svg:hover,
+.author__urls i:hover {
+  color: $accent-hover !important;
+  fill: $accent-hover !important;
+}
+
+/* =========================
+   Content blocks
+   ========================= */
+
+hr,
+.page__content hr {
+  border-color: $border !important;
+}
+
+.page__footer {
+  border-top: 1px solid $border !important;
+  color: $text-muted !important;
+}
+
+.page__footer a {
+  color: $accent !important;
+}
+
+/* =========================
+   Paper box
+   ========================= */
+
 .paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px solid $border;
+  padding: 2.2em 0 2.2em 0;
+  background: transparent !important;
+
+  .paper-box-image {
+    justify-content: center;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    width: 100%;
+    order: 2;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
+    img {
+      max-width: 400px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.30);
+      object-fit: cover;
+      border-radius: 0 !important;
+      border: 1px solid rgba(255, 255, 255, 0.05);
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
+  }
 
+  .paper-box-text {
+    max-width: 100%;
+    order: 1;
+    color: $text-body !important;
+  }
+
+  @include breakpoint($medium) {
+    .paper-box-image {
+      justify-content: left;
+      min-width: 220px;
+      max-width: 42%;
+      order: 1;
     }
 
-
+    .paper-box-text {
+      justify-content: left;
+      padding-left: 2.2em;
+      max-width: 58%;
+      order: 2;
+    }
+  }
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
+.paper-box-text,
+.paper-box-text p,
+.paper-box-text li {
+  color: $text-body !important;
 }
+
+.paper-box-text strong,
+.paper-box-text b {
+  color: $text-main !important;
+}
+
+.paper-box-text a {
+  color: $accent !important;
+}
+
+.paper-box-text a:hover {
+  color: $accent-hover !important;
+}
+
+/* =========================
+   Badge
+   ========================= */
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  margin-top: .5em;
+  margin-left: -.5em;
+  color: $bg-nav !important;
+  background-color: $accent !important;
+  font-size: .8em;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600 !important;
+  border-radius: 0 !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
 }
 
+/* =========================
+   Anchors
+   ========================= */
+
+$scroll_offset: 2em;
+
+h1:before,
+.anchor:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: $scroll_offset;
+  margin-top: -$scroll_offset;
+}
+
+/* =========================
+   Tables
+   ========================= */
+
+table,
+th,
+td {
+  color: $text-body !important;
+  border-color: $border !important;
+  background: transparent !important;
+}
+
+thead {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* =========================
+   Buttons / notices / code
+   ========================= */
+
+.btn,
+.notice,
+.highlight,
+pre,
+code {
+  border-color: $border !important;
+}
+
+.notice {
+  background: rgba(255, 255, 255, 0.03) !important;
+  color: $text-body !important;
+}
+
+/* =========================
+   Selection
+   ========================= */
+
+::selection {
+  background: rgba(199, 155, 107, 0.28);
+  color: $text-main;
+}
