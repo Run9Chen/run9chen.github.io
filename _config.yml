@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Runjiu Chen"
   avatar           : "ava.jpg"
-  bio              : "ScM Student"
-  location         : "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD"
+  bio              : "ScM Student<br>Johns Hopkins<br>Bloomberg School of Public Health"
+  location         : "Baltimore MD"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=k0vohMUAAAAJ&hl=en"
