@@ -15,6 +15,33 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div class="mobile-hero">
+  <div class="mobile-hero__image">
+    <img src="/images/ava.jpg" alt="Runjiu Chen">
+  </div>
+
+  <div class="mobile-hero__name">Runjiu Chen</div>
+
+  <div class="mobile-hero__meta">
+    <div>ScM Student</div>
+    <div>Johns Hopkins</div>
+    <div>Bloomberg School of Public Health</div>
+    <div>Baltimore, MD</div>
+  </div>
+
+  <div class="mobile-hero__links">
+    <a href="mailto:rchen137@jh.edu" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://github.com/run9chen" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank" aria-label="Google Scholar">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
+  </div>
+</div>
+
 <span class='anchor' id='about-me'></span>
 
 I’m Runjiu Chen, an ScM student in Epidemiology (Genetic track) at the Johns Hopkins Bloomberg School of Public Health. My research sits at the intersection of genetic epidemiology, machine learning, and computational genomics, with a focus on building interpretable models for complex biological and clinical data.
