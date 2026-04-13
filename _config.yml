@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Runjiu Chen"
   avatar           : "ava.jpg"
-  bio              : "Johns Hopkins University"
-  location         : "Baltimore MD"
+  bio              : "ScM Student"
+  location         : "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=k0vohMUAAAAJ&hl=en"
   email            : "rchen137@jh.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
